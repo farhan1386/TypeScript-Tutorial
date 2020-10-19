@@ -28,8 +28,8 @@ class Contractor extends Employee {
     }
 }
 
-let john = new FullTimeEmployee('Farhan', 'Ahmed', 50000);
-let jane = new Contractor('Prinka', 'Sharma', 300, 160);
+let fullTime = new FullTimeEmployee('Farhan', 'Ahmed', 50000);
+let contract = new Contractor('Prinka', 'Sharma', 300, 160);
 
-console.log(john.compenSationStatement());
-console.log(jane.compenSationStatement());
+console.log(fullTime.compenSationStatement());
+console.log(contract.compenSationStatement());
